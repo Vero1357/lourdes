@@ -1,0 +1,707 @@
+/* Estilos que afectan a todas las paginas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda';
+
+}
+
+/* Estilos que afectan a todas las paginas */
+h1 {
+    text-align: center;
+    /* color: #2d7e9e; */
+    color: #7e0905;
+    margin-left: 30px;
+}
+
+/* Estilos que afectan a todas las paginas */
+h2 {
+    text-align: center;
+    color: rgb(88, 11, 88);
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: rgb(190, 183, 190);  
+    font-size: 19px;
+}
+
+/* Estilos que afectan a todas las paginas */
+header {
+    /* background-color: #6d097a; */
+    background-color: #b33783;
+}
+
+/* Estilos que afectan a todas las paginas */
+a {
+    text-decoration: none;
+    color: rgb(49, 4, 58);
+
+}
+
+/* Estilos que afectan a todas las paginas */
+footer {
+    position: relative;
+    background-color: #055372;
+    
+}
+
+body {
+    background-color: rgb(241, 189, 215);
+}
+
+video {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+
+/* Estilos del header de todas las paginas */
+.home_grid {
+    padding: 10px;
+    background-color: rgb(194, 137, 13);
+    display: grid;
+    grid-template-areas: 'logo_ensalada nombre';
+}
+
+/* Estilos del header de todas las paginas */
+.nombre {
+    grid-area: nombre;
+    font-size: 35px;
+    /* margin-right: 500px; */
+    margin:  0 250px 0 0
+}
+
+/* Estilos del header de todas las paginas */
+.logo_ensalada {
+    grid-area: logo_ensalada;
+    font-size: 30px;
+    margin: 10px 0 0 50px;
+   
+}
+
+/* Estilos del header de todas las paginas */
+.menu_grid {
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 'botones_grid lobo_noche parrillada vino cena_1 bife bsas_2';
+
+}
+
+/* Estilos del header de todas las paginas */
+.botones_grid {
+    grid-area: botones_grid;
+    margin-left: 10px;
+}
+
+/* Estilos del header de todas las paginas */
+.menu_boton {
+    display: inline-block;
+    background-color: cornsilk;
+    margin-top: 2px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 1px;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px #592A08;
+}
+
+/* Estilos del header de todas las paginas */
+.menu_boton:hover {
+    background-color: ghostwhite;
+    box-shadow: 15px 15px 25px #592A08;
+    transform: scale(1.2);
+}
+
+/* Estilos del header de todas las paginas */
+.redes {
+    text-align: center;
+}
+
+/* Estilos del "index" */
+.imagenes_home {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px 45px 15px 45px;
+}
+
+/* Estilos del "index" */
+.navbar-index {
+    grid-area: lobo_noche;
+}
+
+
+
+/* Estilos del "index" */
+.presentacion {
+    margin: 50px;
+    padding: 35px;
+    font-size: 23px;
+    color: #072679;
+}
+
+/* Estilos del "index" */
+.foto_index {
+    width: 500px;
+    height: 400px;
+    margin: 75px;
+    border-radius:20px;
+    box-shadow: 7px 7px 15px #FFA500;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+/* Estilos de la pagina "fotos" */
+.grid_container_1 {
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+        'madre hippie huskys'
+        'baile mdq tobogan'
+        'grupo laideal nadando'
+        'juego beso picnic';
+    row-gap: 40px;
+}
+
+.fotitos {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px #0baa48;
+}
+
+/* Estilos de la pagina "fotos" */
+.madre {
+    grid-area: madre;
+}
+
+/* Estilos de la pagina "fotos" */
+.hippie {
+    grid-area: hippie;
+}
+
+/* Estilos de la pagina "fotos" */
+.huskys {
+    grid-area: huskys;
+}
+
+/* Estilos de la pagina "fotos" */
+.baile {
+    grid-area: baile;
+}
+
+/* Estilos de la pagina "fotos" */
+.mdq {
+    grid-area: mdq;
+}
+
+/* Estilos de la pagina "fotos" */
+.tobogan {
+    grid-area: tobogan;
+}
+
+/* Estilos de la pagina "fotos" */
+.grupo {
+    grid-area: grupo;
+}
+
+/* Estilos de la pagina "fotos" */
+.laideal {
+    grid-area: laideal;
+}
+
+/* Estilos de la pagina "fotos" */
+.nadando {
+    grid-area: nadando;
+}
+
+/* Estilos de la pagina "fotos" */
+.juego {
+    grid-area: juego;
+}
+
+
+/* Estilos de la pagina "fotos" */
+.beso {
+    grid-area: beso;
+}
+
+/* Estilos de la pagina "fotos" */
+.picnic {
+    grid-area: picnic;
+}
+
+/* Estilos de la pagina "regalos" */
+.contenedor-centrado {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Estilos de la pagina "regalos" */
+table {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a01494;
+    border: 1px solid rgb(152, 82, 170);
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(26, 211, 224, 0.5);
+}
+
+/* Estilos de la pagina "regalos" */
+a {
+    padding: 8px;
+    margin:4px;
+    background-color:  #cfb84e;
+    color: #470350;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+    font-weight: 800;
+}
+/* Estilos de la pagina "regalos" */
+a:hover {
+    background-color: #6717a8;
+    color:#bba57c
+}
+
+/* Estilos de la pagina "momentos" */
+.grid_container_3 {
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    row-gap: 40px;
+    grid-template-areas: 'finsol comunion odonto solcito delcarmen'
+        'bandera anita campamento egreso confirmacion';
+    
+}
+
+.momentos {
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px #a163af;
+} 
+
+/* Estilos de la pagina "momentos" */
+.finsol {
+    grid-area: finsol;
+}
+
+/* Estilos de la pagina "momentos" */
+.comunion {
+    grid-area: comunion;
+}
+
+/* Estilos de la pagina "momentos" */
+.odonto {
+    grid-area: odonto;
+}
+
+/* Estilos de la pagina "momentos" */
+.solcito {
+    grid-area: solcito;
+}
+
+/* Estilos de la pagina "momentos" */
+.delcarmen {
+    grid-area: delcarmen;
+}
+
+/* Estilos de la pagina "momentos" */
+.bandera {
+    grid-area: bandera;
+}
+
+/* Estilos de la pagina "momentos" */
+.anita {
+    grid-area: anita;
+}
+
+/* Estilos de la pagina "momentos" */
+.campamento {
+    grid-area: campamento;
+}
+
+/* Estilos de la pagina "momentos" */
+.egreso {
+    grid-area: egreso;
+}
+
+/* Estilos de la pagina "momentos" */
+.confirmacion {
+    grid-area: confirmacion;
+}
+
+
+/* Estilos de la pagina "videos" */
+.grid_container_2 {
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 'pandemia baniarse bailando noel plaza tacones'
+        'cantando sonriendo italiana lluvia jugo amasando';
+    row-gap: 40px;
+}
+
+/* Estilos de la pagina "videos" */
+.comida {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px #d38e0e;
+}
+
+/* Estilos de la pagina "videos" */
+.pandemia {
+    grid-area: pandemia;
+}
+
+/* Estilos de la pagina "videos" */
+.baniarse {
+    grid-area: baniarse;
+}
+
+/* Estilos de la pagina "videos" */
+.bailando {
+    grid-area: bailando;
+}
+
+/* Estilos de la pagina "videos" */
+.noel {
+    grid-area: noel;
+}
+
+/* Estilos de la pagina "videos" */
+.plaza {
+    grid-area: plaza;
+}
+
+/* Estilos de la pagina "videos" */
+.tacones {
+    grid-area: tacones;
+}
+
+/* Estilos de la pagina "videos" */
+.cantando {
+    grid-area: cantando;
+}
+
+/* Estilos de la pagina "videos" */
+.sonriendo {
+    grid-area: sonriendo;
+}
+
+/* Estilos de la pagina "videos" */
+.italiana {
+    grid-area: italiana;
+}
+
+/* Estilos de la pagina "videos" */
+.lluvia {
+    grid-area: lluvia;
+}
+
+/* Estilos de la pagina "videos" */
+.jugo {
+    grid-area: jugo;
+}
+
+/* Estilos de la pagina "videos" */
+.amasando {
+    grid-area: amasando;
+}
+
+
+
+#imagen {
+    text-align: center;
+    padding: 0px 150px 0 0px;
+    border-radius: 3px;
+
+}
+
+/* Estilo del fondo del menu */
+.menu {
+    text-align: justify;
+    word-spacing: 1px;
+    font-size: 20px;
+}
+
+
+/* Media querys para tablet */
+@media screen and (min-width:768px)and (max-width: 1023px) {
+    h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    .nombre {
+        padding-left: 20px;
+    }
+
+    .presentacion {
+        font-size: 3vw;
+
+    }
+
+    /* Estilos del header de todas las paginas */
+    .logo_ensalada {
+        display: inline-flexbox;
+    }
+
+    /* Estilos del header de todas las paginas */
+    .menu_grid {
+        max-width: 720px;
+
+    }
+
+    /* Estilos del header de todas las paginas */
+    .botones_grid {
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+
+    }
+
+    /* Estilos del "index" */
+    .bife {
+        display: none;
+    }
+
+    /* Estilos del "index" */
+    .lobo_noche {
+        display: none;
+    }
+
+    /* Estilos del "index" */
+    .primer_local {
+        width: 500px;
+        height: 300px;
+    }
+
+    .bsas_2 {
+        display: none;
+    }
+
+    .grid_container_2 {
+        max-width: 720px;
+        grid-template-areas: 'pandemia baniarse bailando'
+            'noel plaza tacones'
+            'cantando sonriendo italiana'
+            'lluvia jugo amasando';
+        column-gap: 60px;
+        margin-left: 80px;
+        margin-bottom: -60px;
+
+    }
+
+    .milanesa {
+        display: none;
+    }
+
+    .chorizo {
+        display: none;
+    }
+
+    .comida {
+        width: 150px;
+        height: 100px;
+
+    }
+
+     /* Estilos de la pagina "momentos" */
+     .grid_container_3 {
+        max-width: 720px;
+        grid-template-areas: 'finsol comunion odonto' 
+            'solcito delcarmen bandera' 
+            'anita campamento egreso'
+            'confirmacion';
+        column-gap: 60px;
+        margin-left: 80px;
+        margin-bottom: -60px;
+    }
+
+    /* Estilos de la pagina "momentos" */
+    .momentos {
+        width: 150px;
+        height: 100px;
+
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Media querys para celulares */
+
+@media screen and (max-width: 767px) {
+
+    /* Estilos del header de todas las paginas */
+    h1 {
+        font-size: 5vw;
+    }
+
+    /* Estilos del header de todas las paginas */
+    h2 {
+        font-size: 4vw;
+        margin-top: 10px;
+    }
+
+    /* Estilos del header de todas las paginas */
+    h3 {
+        font-size: 3vw;
+    }
+
+    /* Estilos del header de todas las paginas */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    /* Estilos del header de todas las paginas */
+    .nombre {
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+
+    /* Estilos del header de todas las paginas */
+    .logo_ensalada {
+        display: flex;
+    }
+
+    /* Estilos del header de todas las paginas */
+    .menu_grid {
+        max-width: 420px;
+    }
+
+    /* Estilos del header de todas las paginas */
+    .botones_grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Estilos del "index" */
+    .presentacion {
+        font-size: 3vw;
+        margin-top: 10px;
+    }
+
+    /* Estilos del "index" */
+    .primer_local {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    /* Estilos del "index" */
+    .parrillada {
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+
+    /* Estilos del "index" */
+    .bife {
+        display: none;
+    }
+
+    /* Estilos del "index" */
+    .lobo_noche {
+        display: none;
+    }
+
+    /* Estilos del "index" */
+    .vino {
+        display: none;
+    }
+
+    /* Estilos del "index" */
+    .asado {
+        display: none;
+    }
+
+    /* Estilos del "index" */
+    .cena_1 {
+        display: none;
+    }
+
+    /* Estilos del "index" */
+    .bsas_2 {
+        display: none;
+    }
+
+    /* Estilos de la pagina "videos" */
+    .grid_container_2 {
+        max-width: 420px;
+        margin-top: -40px;
+        grid-template-areas: 'pandemia'
+            'baniarse' 
+            'bailando'
+            'noel' 
+            'plaza' 
+            'tacones'
+            'cantando' 
+            'sonriendo'
+            'italiana'
+            'lluvia' 
+            'jugo' 
+            'amasando';
+    }
+
+    /* Estilos de la pagina "video" */
+    .comida {
+        width: 150px;
+        height: 100px;
+        font-size: 3vw;
+
+    }
+
+    /* Estilos de la pagina "momentos" */
+    .grid_container_3 {
+        max-width: 420px;
+        margin-top: -30px;
+        grid-template-areas: 'finsol'
+            'comunion' 
+            'odonto' 
+            'solcito' 
+            'delcarmen'
+            'bandera' 
+            'anita' 
+            'campamento' 
+            'egreso'
+            'confirmacion';
+
+    }
+
+    /* Estilos de la pagina "momentos" */
+    .momentos {
+        width: 150px;
+        height: 100px;
+        font-size: 3vw;
+
+    }
+
+
+
+}
