@@ -7,11 +7,19 @@
 
 }
 
+ /* Definición de colores */
+:root {
+    --color-primario: #003366; /* Azul marino */
+    --color-secundario:#6A0D91; /* --#FF5722; Naranja   */
+    --color-complementario: #FFC0CB; /* #2E8B57; Verde esmeralda */
+    --color-neutro: #F5F5DC; /* Beige */
+}
+
 /* Estilos que afectan a todas las paginas */
 h1 {
     text-align: center;
-    /* color: #2d7e9e; */
-    color: #7e0905;
+    /* color: rgb(182, 112, 182); */
+    color: var(--color-secundario);
     margin-left: 30px;
 }
 
@@ -24,32 +32,48 @@ h2 {
 
 p{
     text-align: center;
-    color: rgb(190, 183, 190);  
+    color: rgb(182, 112, 182);  
     font-size: 19px;
 }
 
 /* Estilos que afectan a todas las paginas */
 header {
     /* background-color: #6d097a; */
-    background-color: #b33783;
+    /* background-color: #a8108f; */
+    background-color: var(--color-primario);
+    color: white;
+    padding: 1em;
+    text-align: center;
+
 }
 
 /* Estilos que afectan a todas las paginas */
 a {
+    color: var(--color-secundario);
     text-decoration: none;
-    color: rgb(49, 4, 58);
+    /* text-decoration: none;
+    color: rgb(49, 4, 58); */
 
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Estilos que afectan a todas las paginas */
 footer {
     position: relative;
-    background-color: #055372;
-    
+    /* background-color: #055372;  */
+    background-color: var(--color-primario);
 }
 
 body {
+    font-family: Arial, sans-serif;
+    color: var(--color-primario);
     background-color: rgb(241, 189, 215);
+    margin: 0;
+    padding: 0;
+   
 }
 
 video {
@@ -62,7 +86,8 @@ video {
 /* Estilos del header de todas las paginas */
 .home_grid {
     padding: 10px;
-    background-color: rgb(194, 137, 13);
+    /* background-color: #FFB6C1; */
+    background-color: var(--color-complementario);
     display: grid;
     grid-template-areas: 'logo_ensalada nombre';
 }
@@ -100,21 +125,23 @@ video {
 /* Estilos del header de todas las paginas */
 .menu_boton {
     display: inline-block;
-    background-color: cornsilk;
+    background-color: rgb(182, 112, 182);
     margin-top: 2px;
     padding-left: 1%;
     padding-right: 1%;
     margin-bottom: 1px;
     margin: 1%;
     border-radius: 10px;
-    box-shadow: 7px 7px 15px #592A08;
+    box-shadow: 7px 7px 15px #E6E6FA; 
+    
 }
 
 /* Estilos del header de todas las paginas */
 .menu_boton:hover {
-    background-color: ghostwhite;
-    box-shadow: 15px 15px 25px #592A08;
-    transform: scale(1.2);
+    background-color: var(--color-complementario); 
+    box-shadow: 15px 15px 25px #D8BFD8;
+    transform: scale(1.2); 
+  
 }
 
 /* Estilos del header de todas las paginas */
@@ -150,7 +177,7 @@ video {
     height: 400px;
     margin: 75px;
     border-radius:20px;
-    box-shadow: 7px 7px 15px #FFA500;
+    box-shadow: 7px 7px 15px #FF69B4;
     &:hover {
         transform: scale(1.1);
     }
@@ -173,7 +200,10 @@ video {
     width: 200px;
     height: 150px;
     border-radius: 10px;
-    box-shadow: 7px 7px 15px #0baa48;
+    box-shadow: 7px 7px 15px #6A0D91;
+    &:hover {
+        transform: scale(2.3);
+    }
 }
 
 /* Estilos de la pagina "fotos" */
@@ -252,14 +282,14 @@ table {
     background-color: #a01494;
     border: 1px solid rgb(152, 82, 170);
     border-radius: 5px;
-    box-shadow: 10px 10px 20px rgba(26, 211, 224, 0.5);
+    box-shadow: 10px 10px 20px var(--color-primario);
 }
 
 /* Estilos de la pagina "regalos" */
 a {
     padding: 8px;
     margin:4px;
-    background-color:  #cfb84e;
+    background-color: #FFC0CB;
     color: #470350;
     border: none;
     border-radius: 5px;
@@ -358,7 +388,8 @@ a:hover {
     width: 200px;
     height: 130px;
     border-radius: 10px;
-    box-shadow: 7px 7px 15px #d38e0e;
+    box-shadow: 7px 7px 15px #cf7e20;
+  
 }
 
 /* Estilos de la pagina "videos" */
