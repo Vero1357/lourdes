@@ -139,8 +139,8 @@ video {
 /* Estilos del header de todas las paginas */
 .menu_boton:hover {
     background-color: var(--color-complementario); 
-    box-shadow: 15px 15px 25px #D8BFD8;
-    transform: scale(1.2); 
+    box-shadow: 15px 15px 25px #5f095f;
+    transform: scale(1.1); 
   
 }
 
