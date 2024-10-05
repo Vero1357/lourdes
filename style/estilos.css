@@ -9,7 +9,7 @@
 
  /* Definición de colores */
 :root {
-    --color-primario: #003366; /* Azul marino */
+    --color-primario: #003366; /* #003366 Azul marino */
     --color-secundario:#6A0D91; /* --#FF5722; Naranja   */
     --color-complementario: #FFC0CB; /* #2E8B57; Verde esmeralda */
     --color-neutro: #F5F5DC; /* Beige */
@@ -19,7 +19,7 @@
 h1 {
     text-align: center;
     /* color: rgb(182, 112, 182); */
-    color: var(--color-secundario);
+    color: #f8440d;
     margin-left: 30px;
 }
 
@@ -40,7 +40,7 @@ p{
 header {
     /* background-color: #6d097a; */
     /* background-color: #a8108f; */
-    background-color: var(--color-primario);
+    background-color: rgb(235, 167, 21) ;
     color: white;
     padding: 1em;
     text-align: center;
@@ -87,7 +87,7 @@ video {
 .home_grid {
     padding: 10px;
     /* background-color: #FFB6C1; */
-    background-color: var(--color-complementario);
+    background-color: rgb(223, 233, 79);
     display: grid;
     grid-template-areas: 'logo_ensalada nombre';
 }
